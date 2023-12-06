@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(30, 224, 176)(180, 113, 113);
+    margin: 0;
+}
+.navbar-right
+{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    
+}
+
+#active
+{
+    color: red;
+}
+.topnav
+{
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    
+}
+.topnav a:hover
+{
+    color: red;
+}
+.topnav a
+{
+    float: left;
+    text-align: end;
+    font-size: 15px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(246, 249, 252);
+}
+
+.aboutme-body
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    
+}
+.aboutme-body-left
+{
+    flex: 1;
+}
+
+.aboutme-body-right
+{
+    flex: 1;
+    padding-top: 250px;
+    
+}
