@@ -1,0 +1,53 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover
+  {
+    
+    border-radius: 20%;
+    transition-duration: 4s;
+    background-color:black;
+    color: aliceblue;
+  }
+
+  .card w-50
+  {
+    
+  }
+
+  .cardcontainer
+  {
+    padding-left: 450px;
+    text-align: center;
+  }
+
+  .socialmedia
+  {
+    padding-left: 510px;
+  }
+
+  .contactmebody h1
+  {
+    transform:translateX(4%)
+  }
+
+  .map
+  {
+    align-items: center;
+    padding-left: 460px;
+    margin-top: 50px;
+    background-color: rgb(227, 220, 230);
+    padding-top: 20px;
+  }
+
+  .contactmebody
+  {
+    background-color: rgb(107, 117, 82)
+    padding-bottom: 100px;
+  }

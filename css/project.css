@@ -20,6 +20,7 @@
 {
     flex: 1;
     height: auto;
+    padding-top: 200px;
 }
 table,th,tr
 {
@@ -31,4 +32,28 @@ td
 {
     padding: 10px;
     text-align: center;
+}
+
+.smartdoor
+{
+    height: 70px;
+    overflow: hidden;
+}
+
+.smartdoor:hover
+{
+    height: 300px;
+    transition-duration: 1s;
+}
+
+.risc
+{
+    height: 70px;
+    overflow: hidden;
+}
+
+.risc:hover
+{
+    height: 300px;
+    transition-duration: 1s;
 }

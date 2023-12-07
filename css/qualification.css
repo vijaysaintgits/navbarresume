@@ -2,33 +2,29 @@
 {
     width: 100%;
     display: flex;
+    background-color: rgba(223, 223, 47, 0.438);
+    padding-top: 150px;
+    padding-left: 130px;
+    padding-bottom: 70px;
+    
 }
 
-.qualification-body-left
+.card
 {
-    flex: 1;
-    background-color: rgb(35, 212, 103);
-    height: 100%;
-    padding-top: 250px;
-    padding-bottom: 220px;
-    padding-left: 5px;
-    text-align: justify;
-    padding-right: 5px;
+    margin-right: 70px;
 }
 
-.qualification-body-right
+.card:hover
 {
-    flex: 1;
-    height: auto;
+    border-radius: 50px;
+    border-color: brown;
+    transition-duration: .75s;
+
+    transform: scale(1.3);
+    
+    
 }
-table,th,tr
-{
-    margin-left: 60px;
-    margin-top: 250px;
-    border: 3px solid black;
-}
-td
-{
-    padding: 10px;
-    text-align: center;
-}
+
+
+
+
